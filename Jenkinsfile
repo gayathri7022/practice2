@@ -3,7 +3,7 @@ pipeline {
         stages {
             stage ('Checkout code') {
                 steps {
-                   git credentialsId: 'MY_PAT', url: "https://github.com/gayathri7022/repo1.git", branch: "main"
+                   git credentialsId: 'MY_PAT', url: "https://github.com/gayathri7022/practice2.git", branch: "main"
                 }
             }
 
